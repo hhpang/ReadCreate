@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="63dip"
+        android:layout_margin="0dip"
+        android:background="@drawable/topleather"
+        android:orientation="horizontal" >
+        		<Button
+             android:background="@drawable/blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"
+            android:id="@+id/buttonback" />
+
+ <!--       <Button
+            android:id="@+id/terminar"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/btn_brown"
+            android:clickable="true"
+            android:text="@string/siguiente" />
+        
+        
+        -->
+		    <Button
+            android:id="@+id/terminar"
+            android:layout_width="99dip"
+            android:layout_height="75dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/flecha"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="100dip"
+            android:layout_height="564dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/big_prev"
+            android:clickable="true" />
+
+        <FrameLayout
+            android:id="@+id/share_big_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <FrameLayout
+                android:id="@+id/panel_content"
+                android:layout_width="768dip"
+                android:layout_height="520dip"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:id="@+id/drawing_panel"
+                    android:layout_width="768dip"
+                    android:layout_height="520dip"
+                    android:layout_marginLeft="0dip"
+                    android:layout_marginTop="0dip" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/red_hover"
+                android:layout_width="768dip"
+                android:layout_height="520dip"
+                android:layout_marginLeft="0dip"
+                android:layout_marginTop="0dip"
+                android:src="@drawable/red_cover_transp" />
+
+            <ImageView
+                android:id="@+id/green_hover"
+                android:layout_width="768dip"
+                android:layout_height="520dip"
+                android:layout_marginLeft="0dip"
+                android:layout_marginTop="0dip"
+                android:src="@drawable/green_cover" />
+
+            <ImageView
+                android:id="@+id/red_hover_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="35dip"
+                android:layout_marginRight="60dip"
+                android:src="@drawable/cuenta_tu_historia" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="100dip"
+            android:layout_height="564dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/big_next"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="239dp" >
+
+            <com.didithemouse.alfa.PlayButton
+                android:id="@+id/reproducir"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="55dp"
+                android:layout_toLeftOf="@+id/grabar"
+                android:background="@drawable/play2"
+                android:clickable="true"
+                android:padding="0dip"
+                android:src="@drawable/play2"
+                android:textOff=""
+                android:textOn="" >
+            </com.didithemouse.alfa.PlayButton>
+
+            <com.didithemouse.alfa.RecordButton
+                android:id="@+id/grabar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="84dp"
+                android:background="@drawable/rec2"
+                android:onClick="onRecToggleClicked"
+                android:padding="0dip"
+                android:textColor="#000000"
+                android:textOff=""
+                android:textOn="" >
+            </com.didithemouse.alfa.RecordButton>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

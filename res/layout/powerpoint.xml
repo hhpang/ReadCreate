@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.didithemouse.alfa"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_woodnew"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="63dip"
+        android:layout_margin="0dip"
+        android:background="@drawable/topleather"
+        android:orientation="horizontal" >
+		<Button
+             android:background="@drawable/blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"
+            android:id="@+id/buttonback" />
+<!--
+        <Button
+            android:id="@+id/terminar"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/btn_brown"
+            android:clickable="true"
+            android:text="@string/siguiente" />
+-->
+		    <Button
+            android:id="@+id/terminar"
+            android:layout_width="99dip"
+            android:layout_height="75dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/flecha"
+            android:clickable="true" />
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#C2A46F"
+        android:orientation="horizontal" >
+
+        <com.didithemouse.alfa.MyAbsoluteLayout
+            android:id="@+id/mini_canvas_absolute"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:background="#C2A46F" >
+
+            <LinearLayout
+                android:id="@+id/mini_canvas"
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/canvas1frame"
+                    android:layout_width="150dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="0dip"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF" >
+
+                    <com.didithemouse.alfa.MyAbsoluteLayout
+                        android:id="@+id/canvas1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="150dip"
+                            android:layout_height="100dip"
+                            android:src="@drawable/whitecanvas_xsmall" />
+                    </com.didithemouse.alfa.MyAbsoluteLayout>
+
+                    <ImageView
+                        android:layout_width="150dip"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whitecanvas_xsmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/canvas2frame"
+                    android:layout_width="150dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="0dip"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF" >
+
+                    <com.didithemouse.alfa.MyAbsoluteLayout
+                        android:id="@+id/canvas2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="150dip"
+                            android:layout_height="100dip"
+                            android:src="@drawable/whitecanvas_xsmall" />
+                    </com.didithemouse.alfa.MyAbsoluteLayout>
+
+                    <ImageView
+                        android:layout_width="150dip"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whitecanvas_xsmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/canvas3frame"
+                    android:layout_width="150dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="0dip"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF" >
+
+                    <com.didithemouse.alfa.MyAbsoluteLayout
+                        android:id="@+id/canvas3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="150dip"
+                            android:layout_height="100dip"
+                            android:src="@drawable/whitecanvas_xsmall" />
+                    </com.didithemouse.alfa.MyAbsoluteLayout>
+
+                    <ImageView
+                        android:layout_width="150dip"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whitecanvas_xsmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/canvas4frame"
+                    android:layout_width="150dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="0dip"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF" >
+
+                    <com.didithemouse.alfa.MyAbsoluteLayout
+                        android:id="@+id/canvas4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="150dip"
+                            android:layout_height="100dip"
+                            android:src="@drawable/whitecanvas_xsmall" />
+                    </com.didithemouse.alfa.MyAbsoluteLayout>
+
+                    <ImageView
+                        android:layout_width="150dip"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whitecanvas_xsmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/canvas5frame"
+                    android:layout_width="150dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="0dip"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF" >
+
+                    <com.didithemouse.alfa.MyAbsoluteLayout
+                        android:id="@+id/canvas5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="150dip"
+                            android:layout_height="100dip"
+                            android:src="@drawable/whitecanvas_xsmall" />
+                    </com.didithemouse.alfa.MyAbsoluteLayout>
+
+                    <ImageView
+                        android:layout_width="150dip"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whitecanvas_xsmall" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/canvas6frame"
+                    android:layout_width="150dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="0dip"
+                    android:layout_marginLeft="25dip"
+                    android:layout_marginTop="10dip"
+                    android:background="#FFFFFF" >
+
+                    <com.didithemouse.alfa.MyAbsoluteLayout
+                        android:id="@+id/canvas6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="150dip"
+                            android:layout_height="100dip"
+                            android:src="@drawable/whitecanvas_xsmall" />
+                    </com.didithemouse.alfa.MyAbsoluteLayout>
+
+                    <ImageView
+                        android:layout_width="150dip"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whitecanvas_xsmall" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </com.didithemouse.alfa.MyAbsoluteLayout>
+
+        <RelativeLayout
+            android:id="@+id/canvas_big_layout"
+                android:splitMotionEvents="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C2A46F" >
+
+            <FrameLayout
+                android:id="@+id/canvas_framelayout"
+                    android:splitMotionEvents="false"
+                android:layout_width="989dip"
+                android:layout_height="670dip"
+                android:layout_centerInParent="true"
+                android:background="#FFFFFF" >
+
+                <com.didithemouse.alfa.DragLayer
+                    android:id="@+id/canvas_big_draglayer"
+                        android:splitMotionEvents="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFFF" >
+                </com.didithemouse.alfa.DragLayer>
+            </FrameLayout>
+
+            <com.didithemouse.alfa.MyAbsoluteLayout
+                android:id="@+id/canvas_toolbarlayout"
+                android:layout_width="40dp"
+                android:layout_height="670dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dip"
+                android:layout_toRightOf="@+id/canvas_framelayout"
+                android:background="@drawable/toolbar" >
+            </com.didithemouse.alfa.MyAbsoluteLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

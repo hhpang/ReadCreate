@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.didithemouse.alfa.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+	android:id="@+id/Text1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<ImageView
+    android:id="@+id/statue"
+    android:src="@drawable/statue_gift"
+    android:layout_weight="100" 
+    android:adjustViewBounds="false"
+    android:layout_width="75dp"
+    android:layout_height="239dp" />
+ 
+ <com.didithemouse.alfa.Mochila
+    android:id="@+id/backpack"
+    android:src="@drawable/backpack"
+    android:layout_weight="100" 
+    android:adjustViewBounds="false"
+    android:layout_width="179dp"
+    android:layout_height="205dp"
+    
+    />
+ 
+    
+<!-- <ImageView
+    android:id="@+id/backpack"
+    android:src="@drawable/backpack"
+    android:layout_weight="100" 
+    android:adjustViewBounds="false"
+    android:layout_width="179dp"
+    android:layout_height="205dp"
+    
+    />
+ -->
+
+<!-- 
+	<ImageView   
+	  android:layout_height="200dip"
+	  android:layout_width="200dip"
+	  android:layout_gravity="bottom"
+	  android:id="@+id/backpack"
+	  android:src="@drawable/backpack"
+	  android:layout_marginBottom="10dip"/> 
+	  
+	<ImageView   
+	  android:layout_height="200dip"
+	  android:layout_width="200dip"
+	  android:layout_gravity="center"
+	  android:id="@+id/statue"
+	  android:src="@drawable/statue_gift"
+	  />
+-->
+
+</com.didithemouse.alfa.DragLayer>
+
+
+
+<!-- <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#000000">
+	
+	<ImageView   
+	  android:layout_height="200dip"
+	  android:layout_width="200dip"
+	  android:layout_gravity="bottom"
+	  android:id="@+id/backpack"
+	  android:src="@drawable/backpack"
+	  android:layout_marginBottom="10dip"/> 
+	  
+	<ImageView   
+	  android:layout_height="200dip"
+	  android:layout_width="200dip"
+	  android:layout_gravity="center"
+	  android:id="@+id/statue"
+	  android:src="@drawable/statue_gift"
+	  />
+			
+	
+	
+	<LinearLayout
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal" android:id="@+id/transition"
+		android:visibility="gone" android:background="#FFFFFF">
+	</LinearLayout>
+</FrameLayout>
+-->
